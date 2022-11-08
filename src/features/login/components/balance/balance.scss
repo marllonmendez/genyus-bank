@@ -1,0 +1,72 @@
+#balance-container {
+  background: #050D40;
+  padding: 0 16px;
+  margin-bottom: 48px;
+  height: 135px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  color: #ffffff;
+
+  .text-saldo {
+    font-size: 14px
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .saldo {
+      font-weight: 700;
+      font-size: 2rem;
+  
+      span {
+        font-size: 14px;
+      }
+    }
+
+    
+    button {
+      background-color: #050D40;
+      color: #fff;
+      font-size: 10px;
+      &:first{text-align: right;}
+      
+      @media (max-width: 768px) {
+        & {
+          font-size: 0.9rem;
+        }
+      }
+      img {
+        position: relative;
+        top: 8px;
+        right: 5px;
+      }
+    }
+  }
+
+  .btn-position {
+    margin-top: 28px;
+
+    @media (max-width: 768px) {
+      & {
+        margin-top: 50px;
+      }
+
+
+      
+    }
+
+    button.extract {
+      background-color: #fff;
+      color: #050D40;
+      font-size: 16px;
+      font-weight: 600;
+      width: 100px;
+      height: 20px;
+      border-radius: 60px;
+    }
+  }
+
+  
+}

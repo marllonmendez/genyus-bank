@@ -1,0 +1,48 @@
+.address-section {
+  padding: 32px 16px;
+
+  div {
+    margin: 11px 0;
+
+    h1 {
+      font-weight: 400;
+      font-size: 30px;
+    }
+
+    input {
+      outline: none;
+      border-bottom: 2.2px solid #00000063;
+      margin-right: 15px;
+    }
+  }
+
+  .input-address {
+    width: 285px;
+  }
+
+  .input-passwd {
+    width: 60px;
+  }
+
+  .radio {
+    display: flex;
+    flex-direction: column;
+
+    div {
+      margin: 5px 0;
+    }
+  }
+}
+
+.btn-img {
+  display: flex;
+  justify-content: center;
+  margin-top: -30px;
+
+  button {
+    width: 250px;
+    padding: 6px 33px;
+    color: rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+  }
+}

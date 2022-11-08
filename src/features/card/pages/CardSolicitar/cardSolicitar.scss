@@ -1,0 +1,50 @@
+#card {
+  width: 308px;
+  height: 185px;
+  background-color: #050D40;
+  border-radius: 26px;
+  margin: 0 auto 50px;
+ 
+  & > * {
+    color: #ffffff;
+  }
+
+  .card-circuits {
+    position: relative;
+    top: 70px;
+    left: 20px;
+  }
+
+  .card-visa {
+    position: relative;
+    top: 145px;
+    left: 185px;
+  }
+
+  .card-logo {
+    position: relative;
+    top: 18px;
+    left: 162px;
+  }
+
+  .client-data {
+    margin: 70px 0 0px 22px;
+    font-size: 12px;
+    
+    .client-date-data {
+      font-size: 5px;
+      line-height: 6px;
+      margin: 5px 0;
+
+      p {
+        font-size: 10px;
+        line-height: 12px;
+      }
+    }
+  }
+}
+
+.button-card {
+  width: fit-content;
+  margin: 0 auto;
+}

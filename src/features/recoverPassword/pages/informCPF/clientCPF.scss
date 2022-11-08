@@ -1,0 +1,29 @@
+.headings-standard {
+  font: 600 14px;
+  color: #050D40;
+  margin: 0 16px 4px;
+}
+
+.paragraph-standard {
+  font-size: 14px;
+  margin: 0 16px 36px;
+}
+
+.input-cpf {
+  width: calc(100% - 32px);
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+
+  label {
+    margin-bottom: 4px;
+    color: #050D40;
+    font-weight: 500;
+  }
+
+  input[type='number'] {
+    padding: 12px 16px;
+    border: 1px solid #C4C4C4;
+    border-radius: 6px;
+  }
+}

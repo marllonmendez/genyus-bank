@@ -1,0 +1,26 @@
+.foo-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+
+  position: absolute;
+  top: 610px;
+  left: 50%;
+  transform: translate(-50%, 0);
+    
+  .buttons {
+    width: 135px;
+    height: 40px;
+    padding: 10px 17.5px;
+    background-color: #050D40;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+}

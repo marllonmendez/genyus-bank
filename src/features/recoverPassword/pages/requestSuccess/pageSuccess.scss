@@ -1,0 +1,23 @@
+.done-image {
+  position: relative;
+  top: 194px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.container-success {
+  margin-top: 220px;
+  text-align: center;
+  background: #050D40;
+  height: inherit;
+  color: #fff;
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    margin: 8px 0;
+    font-weight: 600;
+  }
+}

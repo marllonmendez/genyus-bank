@@ -1,0 +1,32 @@
+.permission-text, .div-input {
+  margin: 2rem 1rem;
+}
+
+.permission-text {
+  text-align: justify;
+
+  strong {
+    
+    color: #050D40;
+  }
+}
+
+.div-input {
+  display: flex;
+  align-items: center;
+  
+  @media (min-width: 768px) {
+    & {
+      font-size: 0.9rem;
+    }  
+
+    input {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  input {
+    margin-right: 4px;
+  }
+}

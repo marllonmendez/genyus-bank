@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #ddd;
+}
+
+#page-container{
+  width: 375px;
+  height: 667px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.btn {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.card-font {
+  font-family: "Inter";
+}
+
+#button {
+  width: 180px;
+  height: 55px;
+  border-radius: 16px;
+  background: #050D40;
+  color: #ffffff;
+  cursor: pointer;
+}
